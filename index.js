@@ -5,3 +5,9 @@
 //  let allison = new Driver("Allison", "16 years", "2 years");
 // -PickupLocation with address and city properties
 //  let poshHotel = new PickupLocation("123 Broadway", "New York City");
+
+function Scooter(year, color, model) {
+  this.year = year;
+  this.color = color;
+  this.model = model;
+}
