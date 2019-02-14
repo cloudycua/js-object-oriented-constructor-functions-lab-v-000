@@ -16,3 +16,7 @@ function Driver(name, age, experience) {
 
 // Create a constructor function for PickupLocation with address and city properties
 // let poshHotel = new PickupLocation("123 Broadway", "New York City");
+function PickupLocation(address, city) {
+  this.address = address;
+  this.city = city;
+}
