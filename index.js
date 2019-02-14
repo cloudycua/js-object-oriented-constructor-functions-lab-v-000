@@ -11,7 +11,7 @@ function Scooter(year, color, model) {
 function Driver(name, age, experience) {
   this.name = name;
   this.age = age;
-  this.experince = experience;
+  this.experience = experience;
 }
 
 // Create a constructor function for PickupLocation with address and city properties
